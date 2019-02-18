@@ -1,8 +1,8 @@
 package BuyAndSellStock
 
 import (
-	"testing"
 	"fmt"
+	"testing"
 )
 
 func TestMaxProfit(t *testing.T) {

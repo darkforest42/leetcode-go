@@ -1,4 +1,4 @@
-package twosum
+package twosum167
 
 func TwoSum(nums []int, target int) []int {
 	var indexList []int
@@ -6,7 +6,7 @@ func TwoSum(nums []int, target int) []int {
 	for i < j  {
 		sum = nums[i] + nums[j]
 		if sum == target {
-			indexList = append(indexList, i, j)
+			indexList = append(indexList, i+1, j+1)
 			break
 		}else if sum > target {
 			j = j-1

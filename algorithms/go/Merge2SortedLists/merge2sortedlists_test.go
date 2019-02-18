@@ -1,8 +1,8 @@
 package Merge2SortedLists
 
 import (
-	"testing"
 	"fmt"
+	"testing"
 )
 
 func TestMergeTwoLists(t *testing.T){
